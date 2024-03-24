@@ -40,14 +40,14 @@ const fs= require('fs')
 // }
 
 
-if(fs.existsSync('./blog2.txt')){
-    fs.unlink('./blog2.txt', (err)=>{
-        if(err){
-            console.log(err)
-        }
+// if(fs.existsSync('./blog2.txt')){
+//     fs.unlink('./blog2.txt', (err)=>{
+//         if(err){
+//             console.log(err)
+//         }
 
-        console.log("deleted")
-    })
-}
+//         console.log("deleted")
+//     })
+// }
 
 
