@@ -1,3 +1,4 @@
 const xyz= require("./peoples")
+const os= require('os')
 
-console.log(xyz)
+console.log(os)
