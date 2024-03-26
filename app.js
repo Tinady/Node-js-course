@@ -2,7 +2,10 @@ const express= require('express')
 
 const app=express();
 
+const MONGOURL= 'mongodb+srv://tinady:ydanit@cluster0.tvjpthi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+
 app.set('view engine', 'ejs')
+app.use(express.static('public'));
 
 app.listen(3000);
 
