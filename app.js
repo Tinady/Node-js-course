@@ -16,14 +16,12 @@ app.get('/add-blog' , (req, res)=>{
    const blog= new Blog ({
       title:"THOSe",
       snippet:"people",
-      body:"hgbjnkmcccccccc"
+      body:"are"
 
 
    })
 
-   blog.save().then((result)=>{
-      console.log(result)
-   }).catch((err)=>{console(err)})
+  
 })
 
 
